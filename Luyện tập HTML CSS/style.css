@@ -1,0 +1,96 @@
+/* Bài 1 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .khung {
+    margin: 20px;
+    padding: 20px;
+    background-color: #F2F3F5;
+    width: 900px;
+    height: 700px;
+}
+
+.khung .hocWeb {
+    width:  350px;
+    height: 350px;
+}
+
+img.A {
+    width: 100%;
+}
+
+.khung .test {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.khung .listH {
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+}
+
+.img.H {
+    float: left;
+    border: 20px;
+}
+.khung .miniList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 15px;
+    height: 110px;
+    border-bottom: thin red dotted;
+    margin-bottom: 20px;
+}
+
+.khung .text {
+    padding-left: 10px;
+}
+
+p {
+    color: #C0C2C3;
+} */
+
+
+/* Bai 2 */
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.col-4 {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+.section-2 .container .title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+}
+
+.section-2 .container .row {
+    display: flex;
+}
+
+.section-2 .container .row .col-6 form .input-wrapper input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+}
+
+
